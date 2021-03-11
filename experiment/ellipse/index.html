@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ellipse cycle intersection example</title>
+ <link rel="stylesheet" type="text/css" href="jsxgraph.css" />
+ <script type="text/javascript" src="jsxgraph.js"></script>
+
+
+</head>
+
+<body>
+<div id = "parameters" > 
+<strong>Parameters:</strong>
+<div style="display:inline-block;width :200px">f_1 Value: 
+<div id = "f1Value"> -150,0 </div></div>
+<div style="display:inline-block;width :200px">f_2 Value: 
+<div id = "f2Value"> 150,0 </div></div>
+<div style="display:inline-block;width :200px">p Value: 
+<div id = "pValue"> 0,100 </div></div>
+<div style="display:inline-block;width :200px">cp Value: 
+<div id = "cpValue"> 300,300 </div></div>
+<div style="display:inline-block;width :200px">c Value: 
+<div id = "cValue"> 200,100 </div></div>
+</div>
+<div id="box" class="jxgbox" style="width:1400px; height:700px;"></div>
+<script type="text/javascript">
+ var board = JXG.JSXGraph.initBoard('box', {boundingbox: [-700, 350, 700, -350], axis:true});
+ var iniF1 = [-150,0];
+ var iniF2 = [150, 0];
+ var iniP = [0,100];
+ var iniC =[200,100];
+ var f1 = board.create('point',iniF1,{name:'f_1',color:'red'});
+ var f2 = board.create('point',iniF2,{name:'f_2',color:'red'});
+ var p = board.create('point',iniP,{name:'p',color:'green'});
+ var center = board.create('point',[0,0],{name:'',color:'gray'});
+ var ellipse = board.create('ellipse',[f1,f2,p]);
+ 
+ var c = board.create('point', iniC,{name: 'c', color:'red'});
+ var d = board.create('point', [300,100], {name: 'cp', color: 'green'});
+ var circle = board.create('circle', [c,d]);
+ 
+  iniF1=[center.X()-f1.X(),center.Y()-f1.Y()];
+  iniF2=[center.X()-f2.X(),center.Y()-f2.Y()];
+  iniP=[center.X()-p.X(),center.Y()-p.Y()];
+ 
+ 
+ center.on('drag',function(){
+  console.log(center.X()-iniF1[0]);
+  console.log(center.Y()-iniF1[1]);
+  f1.moveTo([center.X()-iniF1[0],center.Y()-iniF1[1]]);
+  f2.moveTo([center.X()-iniF2[0],center.Y()-iniF2[1]]);
+  p.moveTo([center.X()-iniP[0],center.Y()-iniP[1]]);
+ 
+ });
+ 
+ 
+ f1.on('drag',function(){
+ 
+  
+  center.moveTo([(f1.X()+f2.X())/2,(f1.Y()+f2.Y())/2]); 
+  iniF1=[center.X()-f1.X(),center.Y()-f1.Y()];
+  iniF2=[center.X()-f2.X(),center.Y()-f2.Y()];
+  iniP=[center.X()-p.X(),center.Y()-p.Y()];
+ });
+ 
+  f2.on('drag',function(){
+ 
+  
+  center.moveTo([(f1.X()+f2.X())/2,(f1.Y()+f2.Y())/2]); 
+  iniF1=[center.X()-f1.X(),center.Y()-f1.Y()];
+  iniF2=[center.X()-f2.X(),center.Y()-f2.Y()];
+  iniP=[center.X()-p.X(),center.Y()-p.Y()];
+ });
+ 
+  p.on('drag',function(){
+ 
+  iniF1=[center.X()-f1.X(),center.Y()-f1.Y()];
+  iniF2=[center.X()-f2.X(),center.Y()-f2.Y()];
+  iniP=[center.X()-p.X(),center.Y()-p.Y()];
+   
+ 
+ });
+ 
+ 
+ board.on('update',function(){
+ 
+   var f1Value = document.getElementById("f1Value");
+   var f2Value = document.getElementById("f2Value");
+   var pValue = document.getElementById("pValue");
+   var cpValue = document.getElementById("cpValue");
+   var cValue = document.getElementById("cValue");
+   
+   //f1Value.innerHTML = '('+iniF1[0] +', '+iniF1[1]+')';
+   //f2Value.innerHTML = '('+iniF2[0] +', '+iniF2[1]+')';
+   //pValue.innerHTML = '('+iniP[0] +', '+iniP[1]+')';
+
+   
+   f1Value.innerHTML = '('+f1.X() +', '+f1.Y()+')';
+   f2Value.innerHTML = '('+f2.X() +', '+f2.Y()+')';
+   pValue.innerHTML = '('+p.X() +', '+p.Y()+')';
+   cpValue.innerHTML = '('+p.X() +', '+p.Y()+')';
+   cValue.innerHTML = '('+p.X() +', '+p.Y()+')';
+ });
+ 
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

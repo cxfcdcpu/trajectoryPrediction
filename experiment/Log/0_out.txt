@@ -1,0 +1,215 @@
+Socket created
+Connected
+Setting up a new User :0.346232 at: 0
+setting up user: 0.346232 in: 0
+setting up user: 0.346232 in: 0
+setting up user: 0.346232 in: 0
+setting up user: 0.346232 in: 0
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+computing 0.346232 156110
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+finish copy totoal trial: 1555818
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+finish copy totoal trial: 10801223
+********TAS size is: 169489******
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+1555818 ||||||| 10801223 ||||||||||  169489
+best HyperBola and cycle:
+c1ID: 61 coor: (649, 540)
+c2ID: 34 coor: (95, 204)
+c3ID: 60 coor: (687, 559)
+ah and h3 and avgD1 and avgD2: 1  7  71.9921 69.0348
+grAr and acAr: 17205.4  32237
+tArea and rate3: 39742   0.533717
+roots are: 172128 -175.927 181.326 173926 -100 100 -366.309 733639 
+
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+300000 ||||||| 1000000 ||||||||||  137252
+best two cycle:
+c1ID: 17 coor: (424, 451)
+c2ID: 14 coor: (797, 425)
+r1 and r2 and d: 8  3  74.781
+grAr and acAr: 16672.2  19932
+tArea and rate3: 21154.4   0.836454
+
+300000 ||||||| 1000000 ||||||||||  117320
+best HyperBola and cycle:
+c1ID: 40 coor: (108, 42)
+c2ID: 34 coor: (95, 204)
+c3ID: 44 coor: (145, 664)
+ah and h3 and avgD1 and avgD2: 1  6  54.1736 65.7016
+grAr and acAr: 12343.9  11768
+tArea and rate3: 14879.1   1.04893
+roots are: -458.561 -154.148 0 0 -12345 536.018 0 0 
+
+300000 ||||||| 1000000 ||||||||||  105552
+best HyperBola and cycle:
+c1ID: 66 coor: (973, 94)
+c2ID: 39 coor: (823, 310)
+c3ID: 52 coor: (280, 594)
+ah and h3 and avgD1 and avgD2: 1  7  65.7438 69.2122
+grAr and acAr: 11114.3  11782
+tArea and rate3: 14053.5   0.943333
+roots are: 310.045 683.144 0 0 -12345 674.482 0 0 
+
+300000 ||||||| 1000000 ||||||||||  93770
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+best HyperBola and cycle:
+c1ID: 35 coor: (830, 494)
+c2ID: 39 coor: (823, 310)
+c3ID: 7 coor: (933, 660)
+ah and h3 and avgD1 and avgD2: 1  5  61.3777 67.8519
+grAr and acAr: 11102.1  15340
+tArea and rate3: 22899.6   0.723736
+roots are: 230123 -5.61609 45.9355 394985 -100 100 -261.3 361588 
+
+300000 ||||||| 1000000 ||||||||||  78430
+best HyperBola and cycle:
+c1ID: 66 coor: (973, 94)
+c2ID: 25 coor: (918, 620)
+c3ID: 9 coor: (412, 201)
+ah and h3 and avgD1 and avgD2: 1  3  66.1085 70.2776
+grAr and acAr: 8145.42  13227
+tArea and rate3: 29023.8   0.615818
+roots are: 43334.5 79774.5 0 0 -100 100 -100.732 139645 
+
+300000 ||||||| 1000000 ||||||||||  65203
+best two cycle:
+c1ID: 25 coor: (918, 620)
+c2ID: 66 coor: (973, 94)
+r1 and r2 and d: 8  2  66.1085
+grAr and acAr: 8084.31  13643
+tArea and rate3: 16242.9   0.592561
+
+300000 ||||||| 1000000 ||||||||||  51560
+best HyperBola and cycle:
+c1ID: 4 coor: (276, 27)
+c2ID: 70 coor: (1005, 319)
+c3ID: 69 coor: (724, 7)
+ah and h3 and avgD1 and avgD2: 5  5  71.3914 71.8973
+grAr and acAr: 5958.12  6945
+tArea and rate3: 11366   0.8579
+roots are: 0 0 0 0 -227.099 22265.7 19233.7 47.6074 
+
+300000 ||||||| 1000000 ||||||||||  44615
+best HyperBola and cycle:
+c1ID: 39 coor: (823, 310)
+c2ID: 26 coor: (834, 52)
+c3ID: 74 coor: (511, 464)
+ah and h3 and avgD1 and avgD2: 1  5  64.5586 70.6057
+grAr and acAr: 5391.01  7416
+tArea and rate3: 14318.9   0.726943
+roots are: 450683 79690.9 0 0 -100 100 -297.474 391534 
+
+300000 ||||||| 1000000 ||||||||||  37199
+best two cycle:
+c1ID: 7 coor: (933, 660)
+c2ID: 19 coor: (868, 433)
+r1 and r2 and d: 2  3  59.0307
+grAr and acAr: 4643.31  5078
+tArea and rate3: 6933.68   0.914398
+
+300000 ||||||| 1000000 ||||||||||  32121
+best HyperBola and cycle:
+c1ID: 51 coor: (838, 15)
+c2ID: 52 coor: (280, 594)
+c3ID: 20 coor: (367, 476)
+ah and h3 and avgD1 and avgD2: 3  3  73.1016 73.172
+grAr and acAr: 4059.66  7624
+tArea and rate3: 33949.3   0.532484
+roots are: -200.374 238.355 0 0 -178.61 220.385 0 0 
+
+300000 ||||||| 1000000 ||||||||||  24497
+best HyperBola and cycle:
+c1ID: 10 coor: (57, 683)
+c2ID: 4 coor: (276, 27)
+c3ID: 21 coor: (172, 439)
+ah and h3 and avgD1 and avgD2: 4  5  69.159 69.3128
+grAr and acAr: 3025.22  4026
+tArea and rate3: 11913.4   0.751421
+roots are: 109922 117799 0 0 85590.4 -128.982 166.061 93462.4 
+
+======Result: 
+(61; 34; 60; 1.000000; 7.000000; 71.992111; 69.034805)
+(17; 14; 8.000000; 3.000000; 74.781013)
+(40; 34; 44; 1.000000; 6.000000; 54.173588; 65.701561)
+(66; 39; 52; 1.000000; 7.000000; 65.743820; 69.212234)
+(35; 39; 7; 1.000000; 5.000000; 61.377701; 67.851860)
+(66; 25; 9; 1.000000; 3.000000; 66.108459; 70.277649)
+(25; 66; 8.000000; 2.000000; 66.108459)
+(4; 70; 69; 5.000000; 5.000000; 71.391426; 71.897339)
+(39; 26; 74; 1.000000; 5.000000; 64.558594; 70.605682)
+(7; 19; 2.000000; 3.000000; 59.030712)
+(51; 52; 20; 3.000000; 3.000000; 73.101593; 73.171997)
+(10; 4; 21; 4.000000; 5.000000; 69.159019; 69.312805)
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
+request realDATA 0.346232,6,4,156110,154,0
+here is the requestID 156110
+The computation requestion already in processing
